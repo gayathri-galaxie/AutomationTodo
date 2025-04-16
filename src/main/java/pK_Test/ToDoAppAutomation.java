@@ -166,8 +166,7 @@ public class ToDoAppAutomation {
 	}catch (AssertionError e) {
             System.err.println(e.getMessage());
         } 
-		//Test
-		
+			
 	}
 }
 		  
