@@ -33,9 +33,9 @@ public class ToDoAppAutomation {
 		System.out.println("Title: " + title);
 		boolean isTitleReflected = title.contains("TodoMVC: React");
 		if(isTitleReflected) {
-			System.out.println("PASS");
+			System.out.println("Title fetch: PASS");
 		}else {
-			System.out.println("FAIL");
+			System.out.println("Title fetch: FAIL");
 		}
 
 //TC01,TC02,TC03
